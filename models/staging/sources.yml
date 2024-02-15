@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: dbt_svaghasiya
+    tables:
+      - name: raw_customers
+        columns:
+        - name: id
+          tests:
+            - unique
+            - not_null
+      - name: raw_orders
+        columns:
+        - name: id
+          tests:
+            - unique
+            - not_null

@@ -1,0 +1,11 @@
+dbt_orchestration:
+  outputs:
+    dev:
+      catalog: null
+      host: adb-97664762675111.11.azuredatabricks.net
+      http_path: /sql/1.0/warehouses/e561fe0742341bd9
+      schema: dbt_svaghasiya
+      threads: 3
+      token: dapi63eaac213adcd8f8697c0579ffc57c27
+      type: databricks
+  target: dev
